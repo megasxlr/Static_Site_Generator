@@ -108,7 +108,7 @@ class TestInlineMarkdown(unittest.TestCase):
             ],
             matches,
         )
-    
+
     def test_split_image(self):
         node = TextNode(
             "This is text with an ![image](https://i.imgur.com/zjjcJKZ.png)",
@@ -190,6 +190,7 @@ class TestInlineMarkdown(unittest.TestCase):
             ],
             nodes,
         )
+
 
 if __name__ == "__main__":
     unittest.main()
